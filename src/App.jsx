@@ -2,7 +2,7 @@ import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { useSelector, useDispatch } from 'react-redux'
-import { increment, decrement } from './store/slices/counter'
+import { increment, incrementBy, decrement } from './store/slices/counter'
 
 function App() {
   const count = useSelector((state) => state.counter.counter)
@@ -20,6 +20,9 @@ function App() {
       <div className="card">
         <button onClick={() => dispatch(increment())}>
           Increment
+        </button>
+        <button onClick={() => dispatch(incrementBy(5))}>
+          IncrementBy
         </button>
         <button onClick={() => dispatch(decrement())}>
           Decrement
