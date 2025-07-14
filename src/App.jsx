@@ -21,7 +21,7 @@ function App() {
         <button onClick={() => dispatch(increment())}>
           Increment
         </button>
-        <button onClick={() => dispatch(incrementBy(5))}>
+        <button onClick={() => dispatch(incrementBy(2))}>
           IncrementBy
         </button>
         <button onClick={() => dispatch(decrement())}>
