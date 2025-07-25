@@ -20,6 +20,9 @@ export const PokemonApp = () => {
             <li>Hola</li>
             <li>Hola</li>
             <li>Hola</li>
+            <li>Hola</li>
+            <li>Hola</li>
+            <li>Hola</li>
         </ul>
     </div>
   )
